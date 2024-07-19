@@ -1,5 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
+}
+
+h1, body, p {
     margin: 0;
 }
 
@@ -9,7 +12,10 @@ a {
 
 .background-dark {
     background-color: #1f2937;
-    color: #fff;
+}
+
+.background-blue {
+    background-color: #3882f6;
 }
 
 .flex-container {
@@ -32,24 +38,52 @@ a {
     align-items: flex-start;
 }
 
+.align-center {
+    align-items: center;
+}
+
 .margin-top-10 {
     margin-top: 10px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
 }
 
 .margin-right-auto {
     margin-right: auto;
 }
 
+.margin-right-200 {
+    margin-right: 200px;
+}
+
 .margin-bottom-100 {
     margin-bottom: 100px;
 }
 
-.padding-right-100 {
-    padding-right: 100px;
+.margin-left-200 {
+    margin-left: 200px;
+}
+
+.padding-top-50 {
+    padding-top: 50px;
+}
+
+.padding-right-200 {
+    padding-right: 200px;
 }
 
 .padding-left-100 {
     padding-left: 100px;
+}
+
+.padding-left-200 {
+    padding-left: 200px;
+}
+
+.padding-bottom-50 {
+    padding-bottom: 50px;
 }
 
 .main-text-light {
@@ -58,15 +92,15 @@ a {
     font-weight: bolder;
 }
 
-.secondary-text-light {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
 .header-logo-text {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+}
+
+.secondary-text-light {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .button-text {
@@ -74,7 +108,6 @@ a {
     color: #f9faf8;
     font-weight: bold;
 }
-
 .gap-20 {
     gap: 20px;
 }
@@ -86,7 +119,17 @@ a {
 .button-blue{
     background-color: #3882f6;
     border: none;
-    min-width: 200px;
+    min-width: 150px;
     min-height: 50px;
+    border-radius: 10px;
+}
+
+.button-border {
+    border-color: #f9faf8;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.border-radius-10 {
     border-radius: 10px;
 }
