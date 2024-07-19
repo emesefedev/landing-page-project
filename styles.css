@@ -1,15 +1,92 @@
 body {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
-#header-container, #footer{
-    display: flex;
+a {
+    text-decoration: none;
+}
+
+.background-dark {
     background-color: #1f2937;
     color: #fff;
 }
 
-#footer{
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.center{
     justify-content: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-right-auto {
+    margin-right: auto;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
+.padding-right-100 {
+    padding-right: 100px;
+}
+
+.padding-left-100 {
+    padding-left: 100px;
+}
+
+.main-text-light {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.secondary-text-light {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.button-text {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-100 {
+    gap: 100px;
+}
+
+.button-blue{
+    background-color: #3882f6;
+    border: none;
+    min-width: 200px;
+    min-height: 50px;
+    border-radius: 10px;
 }

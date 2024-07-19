@@ -6,23 +6,23 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div id="header-container">
+        <div class="flex-container background-dark direction-column gap-100 padding-right-100 padding-left-100">
             <!-- Header -->
-            <div>
-                <a href="">Header Logo</a>
-                <a href="">Link 1</a>
-                <a href="">Link 2</a>
-                <a href="">Link 3</a>
+            <div class="flex-container gap-20 margin-top-10">
+                <a href="" class="margin-right-auto header-logo-text">Header Logo</a>
+                <a href="" class="secondary-text-light">Link 1</a>
+                <a href="" class="secondary-text-light">Link 2</a>
+                <a href="" class="secondary-text-light">Link 3</a>
             </div>
 
-            <div>
-                <div>
-                    <h1>This Website is Awesome</h1>
-                    <p>This is the Awesome Website Description</p>
-                    <button>Sign up</button>
+            <div class="flex-container center margin-bottom-100">
+                <div class="flex-item flex-container direction-column align-start">
+                    <h1 class="main-text-light">This Website is Awesome</h1>
+                    <p class="secondary-text-light">This is the Awesome Website Description</p>
+                    <button class="button-blue button-text">Sign up</button>
                 </div>
 
-                <img src="" alt="Placeholder for an image">
+                <img src="" class="flex-item secondary-text-light" alt="Placeholder for an image">
             </div>
 
         </div>
@@ -68,9 +68,9 @@
             </div>
         </div>
 
-        <div id="footer">
-            <!-- Footer -->
-             <p>Copyright © emesefedev</p>
-        </div>
+        <footer class="flex-container background-dark center secondary-text-light padding-right-100 padding-left-100">
+                <!-- Footer -->
+                 <p>Copyright © emesefedev</p>
+        </footer>
     </body>
 </html>
