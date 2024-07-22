@@ -6,71 +6,76 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="flex-container background-dark direction-column gap-100 padding-right-200 padding-left-200">
-            <!-- Header -->
-            <div class="flex-container gap-20 margin-top-10">
-                <a href="" class="margin-right-auto logo-header-light">Header Logo</a>
-                <a href="" class="secondary-text-light">Link 1</a>
-                <a href="" class="secondary-text-light">Link 2</a>
-                <a href="" class="secondary-text-light">Link 3</a>
-            </div>
-
-            <div class="flex-container center margin-bottom-100">
-                <div class="flex-item flex-container direction-column align-start gap-20">
-                    <h1 class="main-header-light">This Website is Awesome</h1>
-                    <p class="secondary-text-light">This is the Awesome Website Description</p>
-                    <button class="button-blue button-text">Sign up</button>
+        <div class="background-dark">
+            <div class="flex-container direction-column mx-200">
+                <!-- Header -->
+                <div class="flex-container my-10 align-center gap-20">
+                    <a href="" class="margin-right-auto header-tertiary-light">Header Logo</a>
+                    <a href="#info" class="text-secondary-light">Link 1</a>
+                    <a href="#quote" class="text-secondary-light">Link 2</a>
+                    <a href="#callToAction" class="text-secondary-light">Link 3</a>
                 </div>
 
-                <img src="" class="flex-item secondary-text-light" alt="Placeholder for an image">
-            </div>
+                <div class="flex-container my-100 justify-space-between align-center">
+                    <div class="flex-item flex-container direction-column align-start gap-20">
+                        <h1 class="header-main-light">This Website is Awesome</h1>
+                        <p class="text-secondary-light">This is the Awesome Website Description</p>
+                        <button class="primary-button background-blue button-text border-radius-10">
+                            Sign up
+                        </button>
+                    </div>
 
+                    <img src="images/header-photo.jpg" 
+                         class="flex-item border-radius-10 max-w-300 text-secondary-light" 
+                         alt="Placeholder for an image">
+                </div>
+            </div>
         </div>
 
-        <div class="flex-container direction-column padding-right-300 padding-left-300 margin-top-50 margin-bottom-100">
+        <div id="info" class="flex-container direction-column padding-right-300 padding-left-300 my-100">
             <!-- Info -->
-            <h2 class="flex-item secondary-header-dark center-text">Some random information</h2>
-            <div class="flex-container flex-item center gap-20">
+            <h2 class="flex-item header-secondary-dark center-text">Some random information</h2>
+            <div class="flex-container flex-item justify-center gap-20">
                 <div class="flex-container direction-column gap-10">
                     <div class="illustration border-radius-10"></div>
-                    <p class="secondary-text-dark width-150 center-text">Subtext of Illustration 1</p>
+                    <p class="text-secondary-dark w-full center-text">Subtext of Illustration 1</p>
                 </div>
                 <div class="flex-container direction-column gap-10">
                     <div class="illustration border-radius-10"></div>
-                    <p class="secondary-text-dark width-150 center-text">Subtext of Illustration 2</p>
+                    <p class="text-secondary-dark w-full center-text">Subtext of Illustration 2</p>
                 </div>
                 <div class="flex-container direction-column gap-10">
                     <div class="illustration border-radius-10"></div>
-                    <p class="secondary-text-dark width-150 center-text">Subtext of Illustration 3</p>
+                    <p class="text-secondary-dark w-full center-text">Subtext of Illustration 3</p>
                 </div>
                 <div class="flex-container direction-column gap-10">
                     <div class="illustration border-radius-10"></div>
-                    <p class="secondary-text-dark width-150 center-text">Subtext of Illustration 4</p>
+                    <p class="text-secondary-dark w-full center-text">Subtext of Illustration 4</p>
                 </div>
             </div>
         </div>
 
-        <div class="flex-container background-light direction-column padding-top-100 padding-right-300 padding-bottom-100 padding-left-300 gap-20">
+        <div id="quote" class="flex-container background-light direction-column padding-top-100 padding-right-300 padding-bottom-100 padding-left-300 gap-20">
             <!-- Quote -->
              <p class="quote-text">Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you.</p>
-             <p class="logo-header-dark align-self-end">-Tyrion Lannister</p>
+             <p class="header-tertiary-dark align-self-end">-Tyrion Lannister</p>
             
         </div>
 
-        <div>
+        <div id="callToAction">
             <!-- Call To Action -->
-            <div class="flex-container center align-center background-blue margin-top-100 margin-left-200 margin-bottom-100 margin-right-200 padding-top-50 padding-bottom-50 border-radius-10">
-                <div class="flex-container flex-item direction-column center gap-20 padding-left-100">
-                    <p class="logo-header-light">Call to action!</p>
-                    <p class="secondary-text-light">Call to action subtext</p>
+            <div class="flex-container justify-center align-center background-blue my-100 mx-200 padding-top-50 padding-bottom-50 border-radius-10">
+                <div class="flex-container flex-item direction-column justify-center gap-20 padding-left-100">
+                    <p class="header-tertiary-light">Call to action!</p>
+                    <p class="text-secondary-light">Call to action subtext</p>
                 </div>
                 <div class="flex-container flex-item center">
-                    <button class="button-blue button-border button-text">Sign up</button>
+                    <button class="primary-button background-blue button-border button-text border-radius-10">Sign up</button>
                 </div>
             </div>
         </div>
 
-        <footer class="flex-container background-dark center secondary-text-light padding-right-100 padding-left-100 padding-top-50 padding-bottom-50">
+        <footer class="flex-container background-dark justify-center text-secondary-light padding-right-100 padding-left-100 padding-top-50 padding-bottom-50">
                 <!-- Footer -->
                  <p>Copyright © emesefedev</p>
         </footer>
