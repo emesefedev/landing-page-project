@@ -103,6 +103,11 @@ a {
     padding-left: 100px;
 }
 
+.py-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .py-50 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -111,22 +116,6 @@ a {
 .py-100 {
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-.padding-right-200 {
-    padding-right: 200px;
-}
-
-.padding-right-300 {
-    padding-right: 300px;
-}
-
-.padding-left-200 {
-    padding-left: 200px;
-}
-
-.padding-left-300 {
-    padding-left: 300px;
 }
 
 /* Size */
