@@ -98,17 +98,19 @@ a {
 
 /* Padding */
 
+.px-100{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .py-100 {
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-.padding-top-50 {
-    padding-top: 50px;
-}
-
-.padding-right-100 {
-    padding-right: 100px;
 }
 
 .padding-right-200 {
@@ -117,14 +119,6 @@ a {
 
 .padding-right-300 {
     padding-right: 300px;
-}
-
-.padding-bottom-50 {
-    padding-bottom: 50px;
-}
-
-.padding-left-100 {
-    padding-left: 100px;
 }
 
 .padding-left-200 {
